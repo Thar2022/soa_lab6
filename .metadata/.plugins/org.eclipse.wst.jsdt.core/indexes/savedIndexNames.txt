@@ -1,0 +1,7 @@
+INDEX VERSION 1.4+C:\Users\supha\OneDrive\Desktop\lab6\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+1815070767.index
+2002605199.index
+739269456.index
+1644182992.index
+2852095785.index
+788045737.index

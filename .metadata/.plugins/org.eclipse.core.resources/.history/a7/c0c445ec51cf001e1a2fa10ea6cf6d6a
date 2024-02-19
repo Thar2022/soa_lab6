@@ -1,0 +1,12 @@
+package th.ac.ku.kps.eng.cpe.soa.dao;
+import java.util.ArrayList;
+import org.hibernate.Query;
+import org.hibernate.Session;
+import org.hibernate.SessionFactory;
+import th.ac.ku.kps.eng.cpe.soa.model.Customer;
+public class CustomerDAO {
+public ArrayList<Customer> getAllCustomers(){
+Session session = SessionUtil.getSession();
+Query query = session.createQuery("from Customer");
+ArrayList<Customer> customers = (ArrayList<Customer>) query.list();
+session.close();
